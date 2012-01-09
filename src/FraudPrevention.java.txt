@@ -9,7 +9,7 @@ public class FraudPrevention {
 	//I created two objects for email and address to make it possible to
 	//sort and search them for occurrences.Where each occurrence is given
 	//the credit card number and order id so they can each detect fraud independently
-	
+
 	public static String[] Adressformat(String[] arr) { // formats address
 		for (int i = 2; i <= 5; i++) {
 			arr[i] = arr[i].toLowerCase();
